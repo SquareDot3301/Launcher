@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color {
+  color: purple;
+}
+
+.btn {
+  border: 3px solid black;
+  border-radius: 15px 30px;
+  background-color: transparent;
+  transition: 0.5s;
+  padding: 10px;
+}
+.btn:hover {
+  border-radius: 30px 15px;
+  border: 3px solid purple;
+}
+
+/*# sourceMappingURL=main.css.map */
